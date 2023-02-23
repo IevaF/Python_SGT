@@ -1,3 +1,5 @@
 First file in remote repository
 
 File has been changed
+
+I made changes for task 7th.
