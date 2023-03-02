@@ -25,10 +25,17 @@ else:
 
 num1 = int(input("Enter first number (Integer): "))
 num2 = int(input("Enter second number (Integer): "))
-if (num1 % 2) == 0 and (num2 % 2) == 0 :
-   print("Both numbers are even : True")
+if (num1 % 2) == 0 and (num2 % 2) == 0: 
+    print("Both numbers are even : True")
+
 else:
-   print("Both numbers are even : False")
+    print("Both numbers are even : False")
+
+if (num1 % 2) == 0 or (num2 % 2) == 0: 
+    print("At least one number is even : True")
+
+else:
+    print("At least one number is even : False")
 
 
 
