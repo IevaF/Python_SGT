@@ -1,4 +1,4 @@
-# 1.task
+# 1.task: Write a program that takes a user input (an integer) and determines whether it is positive, negative, or zero.
 
 num = int(input("Enter a number (integer) : "))
 if num > 0:
@@ -9,7 +9,7 @@ else:
     print("Number is zero")
 
 
-# 2.task
+# 2.task: Write a program that prints out the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number and for multiples of five, print "Buzz". For numbers that are multiples of both three and five, print "FizzBuzz".
 
 for num in range(1,101):
    #num = int(input("Enter a number (integer) : "))
@@ -23,7 +23,7 @@ for num in range(1,101):
         print(num)
 
 
-  #3.task
+  #3.task: Write a program that takes an integer as input and prints out all the factors of that integer.
 
 num = int(input("Enter a number (integer) : "))
 if num > 0:
@@ -38,7 +38,11 @@ else:
     print("The number is 0")
 
 
-# 4.task
+# 4.task: Create calculator:
+#   Ask user to provide 2 numbers and one operation to be performed (*,/,+.- or %). If the operation 
+#   provided does not match one of these, the program should print 
+#   "Operation provided isn't valid, please,try again" - in this case, the program should
+#     ask for the operation to be provided again
 
 num1 = float(input("Enter the first number : "))
 num2 = float(input("Enter the secomd number : "))
@@ -70,7 +74,7 @@ while True:
         oper = input("Please enter operation from 1 to 5 : ")
         
 
-# 5.task
+# 5.task: Write a program that takes an integer as input and prints out whether that integer is prime or not.
 
 num = int(input("Enter a number (integer) : "))
 if num == 1:
