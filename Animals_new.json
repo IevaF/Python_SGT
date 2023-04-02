@@ -1,0 +1,1 @@
+[{"type": "Reptile", "species": "Turtle", "speed": 5}, {"type": "reptile", "species": "Crocodile", "speed": 10}, {"type": "Reptile", "species": "Alligator", "speed": 15}, {"type": "Mammal", "species": "Elephant", "speed": 35}, {"type": "Mammal", "species": "Fox", "speed": 40}, {"type": "Mammal", "species": "Giraffe", "speed": 50}]
